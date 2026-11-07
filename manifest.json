@@ -1386,8 +1386,8 @@
     },
     {
       "path": "scripts/validate.py",
-      "bytes": 24154,
-      "sha256": "9696735d0ddd7161dd839c613e7fbdab1270550ccdc3c13e4ddf569a86655fff"
+      "bytes": 24585,
+      "sha256": "e04eef1f6b3ee028cb175543bf9a1bb2320a0bd80b922b8f2fb9861adf89dfa0"
     }
   ]
 }

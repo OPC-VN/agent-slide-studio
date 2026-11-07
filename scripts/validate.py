@@ -523,6 +523,12 @@ def check(root: Path, require_manifest: bool = False):
     elif require_manifest:
         fail("Thiếu manifest.json")
 
+    if (root / "CLAUDE.md").exists():
+        fail("CLAUDE.md ở gốc làm claude plugin validate --strict đỏ; dùng .claude/CLAUDE.md chứa @../AGENTS.md")
+    dot_claude = root / ".claude" / "CLAUDE.md"
+    if dot_claude.exists() and "@../AGENTS.md" not in dot_claude.read_text(encoding="utf-8").splitlines():
+        fail(".claude/CLAUDE.md phải có dòng @../AGENTS.md (đường @import tính từ file chứa nó)")
+
     governance = [
         name for name in ("AGENTS.md", ".claude/CLAUDE.md", "GEMINI.md") if (root / name).exists()
     ]
