@@ -524,7 +524,7 @@ def check(root: Path, require_manifest: bool = False):
         fail("Thiếu manifest.json")
 
     governance = [
-        name for name in ("AGENTS.md", "CLAUDE.md", "GEMINI.md") if (root / name).exists()
+        name for name in ("AGENTS.md", ".claude/CLAUDE.md", "GEMINI.md") if (root / name).exists()
     ]
     if governance:
         warnings.append(

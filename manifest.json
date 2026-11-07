@@ -1261,8 +1261,8 @@
     },
     {
       "path": "02-references/tooling/host-compatibility.md",
-      "bytes": 2058,
-      "sha256": "e15991b0121d8547bc526a59254e51b81d8997de02b2db437ae49892dfe7eeef"
+      "bytes": 2069,
+      "sha256": "ba735b6015f2676cd461ddd7d3791db1314ceade20e49cc22b092c5b0bebbbee"
     },
     {
       "path": "03-workflow/01-read-and-map.md",
@@ -1301,8 +1301,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3722,
-      "sha256": "14dd0139ed6e54657dff88f2e01c53278eaec9cd262575a1929d742944c0c9d1"
+      "bytes": 4066,
+      "sha256": "6495d9237dc60b98a428b7d1116d4ec980c5e73e4a6c475888370a035e20bd34"
     },
     {
       "path": "INSTALL.md",
@@ -1386,8 +1386,8 @@
     },
     {
       "path": "scripts/validate.py",
-      "bytes": 24146,
-      "sha256": "2c1c6f2f63497e2a488fb664e59d4c64b35565f3f45e64767186267b44c46a45"
+      "bytes": 24154,
+      "sha256": "9696735d0ddd7161dd839c613e7fbdab1270550ccdc3c13e4ddf569a86655fff"
     }
   ]
 }

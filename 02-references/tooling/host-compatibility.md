@@ -17,7 +17,7 @@ kiểm tra cấu trúc, cài thử filesystem với việc chạy host thật. B
 | Cá nhân | ~/.agents/skills/agent-slide-studio/ | ~/.claude/skills/agent-slide-studio/ | ~/.gemini/config/skills/agent-slide-studio/ |
 | Điểm vào | SKILL.md | SKILL.md | SKILL.md |
 | Header | name + description | Cùng header | Cùng header |
-| Hướng dẫn kho | AGENTS.md | CLAUDE.md nhập @AGENTS.md | Rule workspace tạo qua Customizations |
+| Hướng dẫn kho | AGENTS.md | .claude/CLAUDE.md nhập @../AGENTS.md | Rule workspace tạo qua Customizations |
 | Gọi rõ ràng | $agent-slide-studio hoặc chọn /skills | /agent-slide-studio | Yêu cầu sử dụng tên skill, xác nhận đã nạp |
 | Integration active | plugin/codex.md | plugin/claude.md | plugin/antigravity.md |
 | Metadata giao diện | plugin/openai.yaml | Không cần | Không cần |

@@ -9,6 +9,7 @@ status: active
 
 ## Chưa phát hành
 
+- Dời `CLAUDE.md` ở gốc sang `.claude/CLAUDE.md` (dòng `@../AGENTS.md` + điểm vào Claude Code): `claude plugin validate --strict` đỏ khi plugin có `CLAUDE.md` gốc («not loaded as project context»); `@import` tính đường từ file chứa nó. `host-compatibility.md` và `scripts/validate.py` nêu đúng đường mới.
 - Gỡ gói `05-chatgpt-project/` (instructions, tài liệu hợp nhất và 23 PNG cho ChatGPT Project): không còn dùng; đường dùng chính là `SKILL.md` qua plugin.
 
 ## 2.2.5 — 2026-11-05
