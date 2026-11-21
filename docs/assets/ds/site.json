@@ -1,14 +1,14 @@
 {
   "name": "Agent Slide Studio",
   "tagline": "Deck 16:9 tiếng Việt đúng từng chữ, thiết kế bằng ImageGen của agent.",
-  "repo": "https://github.com/ducnguyen221/agent-slide-studio",
+  "repo": "https://github.com/OPC-VN/agent-slide-studio",
   "site": "https://ducnguyen.vn/agent-slide-studio/docs/",
   "logo": "assets/logo.svg",
   "license": "MIT",
   "year": 2026,
   "resources": [
     {
-      "href": "https://github.com/ducnguyen221/agent-slide-studio",
+      "href": "https://github.com/OPC-VN/agent-slide-studio",
       "label": "GitHub"
     },
     {
@@ -16,7 +16,7 @@
       "label": "Thư viện bố cục"
     },
     {
-      "href": "https://github.com/ducnguyen221/agent-slide-studio/blob/main/CHANGELOG.md",
+      "href": "https://github.com/OPC-VN/agent-slide-studio/blob/main/CHANGELOG.md",
       "label": "Changelog"
     }
   ],
