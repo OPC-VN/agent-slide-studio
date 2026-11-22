@@ -14,15 +14,15 @@ export const DEFAULT_MENU = [
 export const DEFAULT_CONFIG = {
   name: 'Tên sản phẩm',
   tagline: 'Một câu nói lợi ích chính cho người đọc.',
-  repo: 'https://github.com/ducnguyen221/<repo>',
+  repo: 'https://github.com/OPC-VN/<repo>',
   site: 'https://ducnguyen.vn/<repo>/',
   logo: 'assets/logo-128.png',
   license: 'MIT',
   year: 2026,
   menu: DEFAULT_MENU,
   resources: [
-    { href: 'https://github.com/ducnguyen221/<repo>', label: 'GitHub' },
-    { href: 'https://github.com/ducnguyen221/<repo>/blob/main/CHANGELOG.md', label: 'Changelog' },
+    { href: 'https://github.com/OPC-VN/<repo>', label: 'GitHub' },
+    { href: 'https://github.com/OPC-VN/<repo>/blob/main/CHANGELOG.md', label: 'Changelog' },
   ],
 };
 
